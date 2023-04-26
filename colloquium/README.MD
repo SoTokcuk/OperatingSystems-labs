@@ -1,0 +1,3 @@
+In this code, we create factory objects for breakfast and lunch, and then use them to create an order at the restaurant. We order two dishes: the first is breakfast with cheese, the second is lunch with a double portion of vegetables. We use decorators to add cheese and vegetables.
+
+Then we output the name and price of the ordered dishes and free up the memory allocated to those dishes and factories.
