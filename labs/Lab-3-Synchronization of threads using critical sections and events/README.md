@@ -34,7 +34,7 @@
 # Code Documentation
 
 
-```
+``` cpp
 #include <iostream>
 #include <vector>
 #include <string>
@@ -45,7 +45,7 @@ These lines include the necessary header files for input/output (`iostream`), ve
 
 <br>
 
-```
+``` cpp
 CRITICAL_SECTION cs;
 HANDLE event;
 
@@ -57,7 +57,7 @@ Here, we define a critical section (`CRITICAL_SECTION`) and an event object (`HA
 
 <br>
 
-```
+``` cpp
 DWORD WINAPI workThread(LPVOID lpParam) {
     int interval;
     std::cout << "Enter time interval: ";
@@ -82,7 +82,7 @@ The `workThread` function is the entry point for the worker thread. It prompts t
 
 <br>
 
-```
+``` cpp
 DWORD WINAPI countElementThread(LPVOID lpParam) {
     WaitForSingleObject(event, INFINITE);
 
@@ -101,7 +101,7 @@ The `countElementThread` function serves as the entry point for the counting thr
 
 <br>
 
-```
+``` cpp
 int main() {
     InitializeCriticalSection(&cs);
     event = CreateEvent(NULL, TRUE, FALSE, NULL);
