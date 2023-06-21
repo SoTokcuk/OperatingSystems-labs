@@ -82,7 +82,7 @@ The code consists of several components:
 
 # Usage Example
 
-```
+``` cpp
 Enter array size: 5
 Enter array elements: 123 45a 7b8 9c0 x11
 Initial array: 123 45a 7b8 9c0 x11 
