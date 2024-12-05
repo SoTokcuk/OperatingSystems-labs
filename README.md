@@ -70,6 +70,3 @@ If you would like to contribute to this repository, please follow these steps:
 
 For any questions or issues, please open an issue in this repository.
 
----
-
-**Note**: This repository does not have a description, website, or topics provided. Adding these would help others understand the purpose and scope of the project better.
